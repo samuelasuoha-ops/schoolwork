@@ -1,0 +1,27 @@
+question 1:
+import statistics as st
+
+my2DList = []
+
+firstInstance = ["", "Morning", "Afternoon", "Evening"]
+secondInstance = ["Person1",80,120,77]
+thirdInstance = ["Person2",55,152,70]
+fourthInstance = ["Person3",147,60,55]
+fifthInstance = ["Person4",70,120,85]
+
+print(my2DList)
+
+my2DList.append(firstInstance)
+my2DList.append(secondInstance)
+my2DList.append(thirdInstance)
+my2DList.append(fourthInstance)
+my2DList.append(fifthInstance)
+
+print(my2DList)
+
+print(fourthInstance[2])
+print(fifthInstance[3])
+
+for instance in my2DList:
+    for element in instance:
+        print(element)
