@@ -1,0 +1,47 @@
+/* Student Number: C00305107
+    Name: Samuel Asuoha 
+    Date: 18/03/2024*/
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 520px; 
+    margin: 0px auto; 
+    display: inline-block;
+}
+
+.subject {
+    display: inline-block;
+   
+}
+
+label {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+input, select {
+    display: block;
+    margin: 5px 180px;
+    text-align: center;
+}
+
+.date {
+    display: inline-block;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    cursor: pointer;
+    display: inline-block;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---Student Number: C00305107
+        Name: Samuel Asuoha 
+        Date: 18/03/2024-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome</h1>
+        <form action="welcome.php" method="post">
+            <div class="name">
+                <h3>First name:</h3>
+                <input type="text" name="firstname" placeholder="Enter your first name" required> 
+                <h3>Last name:</h3>
+                <input type="text" name="lastname" placeholder="Enter your last name" required> 
+            </div>
+            <div class="subject">
+                <h3>Choose your subject category:</h3>
+                <select name="Subject">
+                    <option value="Science">Science</option>
+                    <option value="Maths">Maths</option>
+                    <option value="English">English</option>
+                </select>
+            </div>
+            <div class="skill">
+                <h3>How skilled are you in this subject category?</h3>
+                <label><input id="beginner" type="radio" name="level" value="BEGINNER" checked> Beginner</label>
+                <label><input id="advanced" type="radio" name="level" value="ADVANCED">Advanced</label>
+                <label><input id="master" type="radio" name="level" value="MASTER"> Master</label> 
+            </div>
+            <div class="date">
+                <h3>Select a day to present:</h3>
+                <input type="date" name="date" required>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

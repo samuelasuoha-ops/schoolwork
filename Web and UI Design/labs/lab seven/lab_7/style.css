@@ -1,0 +1,39 @@
+/* Student ID: C00305107
+Full Name: Samuel Asuoha
+Date: 01/04/2024*/
+
+.welcome {
+    color: black; 
+    font-size: 10px;
+}
+
+body {
+    background-color: rgb(206, 251, 183);
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1, input, .button {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center; 
+    margin: 0 auto;
+}
+
+button {
+    border: none; 
+    border-radius: 5px; 
+    background-color: #007bff; 
+    color: white; 
+    font-size: 16px; 
+    cursor: pointer;
+    padding: 10px 50px; 
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #007bff;
+}

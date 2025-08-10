@@ -1,0 +1,142 @@
+<BACKUP.BAT FILE> 
+
+@echo off 
+REM Name : Samuel Asuoha
+REM Student ID: C00305107
+
+REM Appending script start message to backup.log
+REM This section adds a message to the backup.log file indicating
+REM that the script has started and logs the current working directory.
+REM It provides a starting point for tracking the execution of the script 
+REM and helps in debugging if any issues arise during execution.
+echo %date% %time% Script started. >> backup.log
+echo %date% %time% working dir %cd% >> backup.log
+
+REM Generating YYYYMMDD folder name
+REM This section generates a folder name based on the current date in the format YYYYMMDD.
+REM It ensures that the backup folder is named with the current date,
+REM allowing for easy identification and organization of backup snapshots.
+set "timestamp=%date:~6,4%%date:~3,2%%date:~0,2%"
+set "backup_folder=%cd%\%timestamp%"
+
+REM Checking if the backup folder already exists
+REM This section checks if the backup folder for the current date already exists
+REM to prevent the script from creating duplicate backup folders for the same date, 
+REM ensuring that each backup snapshot is stored in a unique folder.
+if not exist "%backup_folder%" (
+    REM If not, create the folder and log it
+    mkdir "%backup_folder%"
+    echo %date% %time% created folder %timestamp% >> backup.log
+) else (
+    REM If the folder exists, log it
+    echo %date% %time% using previously created folder %timestamp% >> backup.log
+)
+
+REM Copying the files from input folder to backup folder
+REM This section copies files from the input folder to the backup folder 
+REM if they are not already present to prevent data loss. 
+for %%I in ("%cd%\input\*") do (
+    if not exist "%backup_folder%\%%~nxI" (
+        REM If file does not exist in backup folder, copy it and log
+        copy "%%I" "%backup_folder%"
+        echo 1 %date% %time% Added file %%~nxI to folder %timestamp% >> backup.log
+    ) else (
+        REM If file exists, compare them
+        REM This section compares files in the input 
+        REM folder with those in the backup folder and handles any differences.
+        REM This ensures that only files that have changed since the last backup 
+        REM are updated in the backup folder, minimizing redundancy and optimizing storage space.
+        fc "%%I" "%backup_folder%\%%~nxI" > nul
+        if errorlevel 1 (
+            REM If files are different, overwrite and log
+            copy /Y "%%I" "%backup_folder%"
+            echo %date% %time% %%~nxI changed... overwritten in %timestamp% >> backup.log
+        ) else (
+            REM If files are same, log
+            echo %date% %time% %%~nxI ignored (already in %timestamp%) >> backup.log
+        )
+    )
+)
+
+REM This is for the End of job message
+echo %date% %time% End of Job. >> backup.log
+
+
+
+<README.TXT FILE>
+
+Name: Samuel Asuoha
+Student Number: C00305107
+
+Instructions for running backup.bat:
+1. Ensure that you have placed at least four files inside the "input" folder located in the "assignment" directory.
+2. Double-click on the "backup.bat" file located in the "assignment" folder.
+3. Check the "backup.log" file in the "assignment" folder for the backup process details.
+
+Purpose of the script:
+This script is designed to create a backup of files from the "input" folder to a new folder named with the current date in YYYYMMDD format. 
+It logs the backup process and ensures that files are not duplicated in the backup folder.
+
+Automating script to run on PC startup:
+To automate the script to run when the PC is turned on, you can create a shortcut to the "backup.bat" file and place it in the Windows Startup folder. 
+To do this, follow these steps.
+1. Press Win + R to open the Run dialog.
+2. Type "shell:startup" and press Enter, this will open the Startup folder.
+3. Right-click inside the Startup folder and select "New" and then "Shortcut".
+4. Browse to the location of the "backup.bat" file, select it, and click "Next".
+5. Click "Finish" to create the shortcut.
+
+
+<BACKUP.LOG FILE>
+
+17/04/2024 12:35:10.27 Script started. 
+17/04/2024 12:35:10.28 working dir C:\Users\samue\OneDrive\Desktop\school work\parttime\Architecture, Operating Systems and Networking\assignmentXprojects\Assignment 
+17/04/2024 12:35:10.34 created folder 20240417 
+1 17/04/2024 12:35:10.38 Added file file-1.txt to folder 20240417 
+1 17/04/2024 12:35:10.38 Added file file-2.txt to folder 20240417 
+1 17/04/2024 12:35:10.38 Added file file-3.txt to folder 20240417 
+1 17/04/2024 12:35:10.38 Added file file-4.txt to folder 20240417 
+17/04/2024 12:35:10.50 End of Job. 
+17/04/2024 12:35:16.09 Script started. 
+17/04/2024 12:35:16.10 working dir C:\Users\samue\OneDrive\Desktop\school work\parttime\Architecture, Operating Systems and Networking\assignmentXprojects\Assignment 
+17/04/2024 12:35:16.13 using previously created folder 20240417 
+17/04/2024 12:35:16.14 file-1.txt ignored (already in 20240417
+17/04/2024 12:35:16.14 file-2.txt ignored (already in 20240417
+17/04/2024 12:35:16.14 file-3.txt ignored (already in 20240417
+17/04/2024 12:35:16.14 file-4.txt ignored (already in 20240417
+17/04/2024 12:35:16.38 End of Job. 
+17/04/2024 12:35:18.20 Script started. 
+17/04/2024 12:35:18.20 working dir C:\Users\samue\OneDrive\Desktop\school work\parttime\Architecture, Operating Systems and Networking\assignmentXprojects\Assignment 
+17/04/2024 12:35:18.24 using previously created folder 20240417 
+17/04/2024 12:35:18.26 file-1.txt ignored (already in 20240417
+17/04/2024 12:35:18.26 file-2.txt ignored (already in 20240417
+17/04/2024 12:35:18.26 file-3.txt ignored (already in 20240417
+17/04/2024 12:35:18.26 file-4.txt ignored (already in 20240417
+17/04/2024 12:35:18.51 End of Job. 
+17/04/2024 12:35:19.86 Script started. 
+17/04/2024 12:35:19.87 working dir C:\Users\samue\OneDrive\Desktop\school work\parttime\Architecture, Operating Systems and Networking\assignmentXprojects\Assignment 
+17/04/2024 12:35:19.90 using previously created folder 20240417 
+17/04/2024 12:35:19.94 file-1.txt ignored (already in 20240417
+17/04/2024 12:35:19.94 file-2.txt ignored (already in 20240417
+17/04/2024 12:35:19.94 file-3.txt ignored (already in 20240417
+17/04/2024 12:35:19.94 file-4.txt ignored (already in 20240417
+17/04/2024 12:35:20.16 End of Job. 
+17/04/2024 12:35:21.54 Script started. 
+17/04/2024 12:35:21.55 working dir C:\Users\samue\OneDrive\Desktop\school work\parttime\Architecture, Operating Systems and Networking\assignmentXprojects\Assignment 
+17/04/2024 12:35:21.59 using previously created folder 20240417 
+17/04/2024 12:35:21.73 file-1.txt ignored (already in 20240417
+17/04/2024 12:35:21.73 file-2.txt ignored (already in 20240417
+17/04/2024 12:35:21.73 file-3.txt ignored (already in 20240417
+17/04/2024 12:35:21.73 file-4.txt ignored (already in 20240417
+17/04/2024 12:35:22.01 End of Job. 
+17/04/2024 12:36:18.94 Script started. 
+17/04/2024 12:36:18.95 working dir C:\Users\samue\OneDrive\Desktop\school work\parttime\Architecture, Operating Systems and Networking\assignmentXprojects\Assignment 
+17/04/2024 12:36:19.23 using previously created folder 20240417 
+17/04/2024 12:36:19.29 file-1.txt ignored (already in 20240417
+17/04/2024 12:36:19.29 file-2.txt ignored (already in 20240417
+17/04/2024 12:36:19.29 file-3.txt ignored (already in 20240417
+17/04/2024 12:36:19.29 file-4.txt ignored (already in 20240417
+1 17/04/2024 12:36:19.29 Added file file-5.txt to folder 20240417 
+17/04/2024 12:36:19.99 End of Job. 
+
+

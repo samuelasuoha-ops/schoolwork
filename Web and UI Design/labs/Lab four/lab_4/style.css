@@ -1,0 +1,27 @@
+/* Samuel Asuoha 
+   C00305107 */
+
+
+
+body {
+    background-color: #FFFDD0;
+    background: linear-gradient(100deg, #5ff7ff, #ffa865);
+}
+
+.nav{
+    height: 30px;
+    padding: 20px;
+    font-size: 2em;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: aqua; 
+    }
+}
+

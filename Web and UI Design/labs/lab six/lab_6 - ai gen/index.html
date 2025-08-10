@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---Student Number: C00305107
+        Name: Samuel Asuoha 
+        Date: 18/03/2024-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to Our Website</h1>
+            <form action="welcome.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <select name="department">
+                    <option value="IT">IT</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Marketing">Marketing</option>
+                </select>
+                <div class="radio-group">
+                    <label><input type="radio" name="gender" value="male" checked> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                </div>
+                <input type="date" name="birthdate" required>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+    </html>

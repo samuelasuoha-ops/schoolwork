@@ -1,0 +1,28 @@
+<!-- Student ID: C00305107, Full Name: Samuel Asuoha, Date: 20/04/2024 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+</head>
+<body>
+    <!--added type="number" to the input fields to ensure that the user can only input numbers-->
+    <label> Add a number </label>
+    <input id="numberOne" type="number"></input>
+    <label> Add a number </label>
+    <input id="numberTwo" type="number"></input>
+    <button onclick="divide()">divide</button>
+    <button onclick="multiply()">multiply</button>
+    <button onclick="changeOperation()">change</button>
+    <!-- to display errors and results -->
+    <p id="errors"></p>
+    <p id="result"></p>
+    <!-- added "onerror" to link to the "handleImageError()" on the javascript file -->
+    <img src="myimage.png" onerror="handleImageError()">
+
+    <!-- the javaScript source file -->
+    <script src="src.js"></script>
+</body>
+</html>

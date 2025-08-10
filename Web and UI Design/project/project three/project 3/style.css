@@ -1,0 +1,380 @@
+/* Samuel Asuoha 
+   C00305107 */
+
+html{
+    height: 100%;
+}
+
+/* gradient animation */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body{
+    animation: gradientAnimation 10s infinite alternate;
+    background: linear-gradient(100deg, #ba1b82, #202020);
+    background-size: 400% 400%;
+}
+
+.body {
+    height: 100%;
+    background-image: url('instruments/background4.png');/* Background Image for website */
+    background-size: 80%; /* Adjust the percentage to partially cover the page */
+    background-position: center 1000px; /* Center the image */
+    position: relative;
+    color: rgb(255, 255, 255);
+    min-height: 100vh; /* to set minimum height to 100% of viewport height */
+    font-size: 20px;
+}
+
+/*navigation styling*/
+.nav{
+    background-color: rgb(255, 126, 126);
+    height: 30px;
+    padding: 20px;
+    font-size: 2em;
+    margin: 20px;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.nav2{
+    margin-right: 30px;
+}
+
+/* to change color on hover over navigation*/
+ul a:hover {
+    color: aqua; 
+    transition: background-color 0.3s ease; 
+}
+
+
+/*hover styling for 'link' class*/
+.link:hover {
+    background-color: rgb(162, 162, 162); 
+    transition: background-color 0.3s ease; 
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: aqua; 
+    }
+}
+
+/* table styling */
+table {
+    border: 1px solid red; 
+    border-collapse: collapse; 
+    background-color: rgb(255, 176, 176); 
+    color:rgb(0, 0, 0); 
+    width: 80%; 
+    margin-left: 10%; 
+    margin-top: 20px; 
+    font-size: 1em;
+}
+
+.tablehead {
+    color: rgb(246, 0, 0); 
+    text-align:center;
+    font-weight: bold;
+}
+
+.information, .link{
+    padding: 10px;
+}
+
+/* background styling */
+th {
+    background-color: aqua;
+}
+
+/* border styling */
+th, td {
+    border: 1px solid red;/* to make border more visible*/
+}
+
+.sublink{
+    color: rgb(219, 3, 3);
+}
+
+.sublink:hover{
+    color: aqua;
+}
+
+li{
+    font-weight: bold;/* to make font bold*/
+    color: white;
+}
+
+
+/* style for the image container */
+.image-container {
+    position: relative; /* Position relative for absolute positioning of overlay text */
+    /*display: inline-block; /* Make the container fit the image */
+}
+
+.image{
+    max-width: 50%; 
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease;
+}
+
+.image:hover{
+    transform: scale(1.1);
+}
+
+/*
+.overlay {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 50%; 
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    opacity: 0; 
+    transition: opacity 0.5s;
+}
+
+.overlay-text{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%); 
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+*/
+/* to show text on hover 
+.image-container:hover .overlay-text{
+    opacity: 1; 
+}
+
+.overlay:hover{
+    opacity: 1; 
+}
+*/
+.link2 {
+    color: rgb(255, 126, 126);
+}
+
+.link2:hover {
+    color: aqua; 
+    transition: background-color 0.3s ease; 
+}
+
+.link3{
+    text-decoration: underline;
+}
+
+
+.link3:hover {
+    color: aqua; 
+    transition: background-color 0.3s ease; 
+    /*text-decoration: underline;*/
+}
+
+.info{
+    margin-left: 40px; /* Adjusted the margin-left to control the indentation */
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -50px; 
+}
+
+h1{
+    text-align: center;
+}
+
+h1, h2, h3{
+    color: rgb(255, 242, 0);
+}
+
+select{
+    height: 30px;
+    width: 80px;
+}
+
+.classes{
+    text-align: center;
+}
+
+/*styling for video*/
+.video{
+    margin-left: 40px; 
+    position:relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    align-items: center;
+    padding-left: 400px;
+}
+
+
+/*styling for about_us page*/
+.about_us{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 30px;
+}
+
+/*styling for form*/
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.label{
+    font-weight: bold;/* to make font bold*/
+}   
+
+.form{
+   /* width: 520px; 
+    margin: 0px auto; 
+    display: inline-block;
+    position: relative;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto; 
+}
+
+label {
+    display: inline-block;
+    margin-right: 20px; 
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.name, .email, .message, .date, .gender, .country{
+    margin-bottom: 30px;
+}
+
+.gender_label{
+    padding-bottom: 10px;
+}
+
+.gender_id{
+    display: flex;
+}
+
+.male:hover, .female:hover{
+    cursor: pointer;
+}
+
+input{
+    display: grid; 
+    grid-template-columns: auto auto; 
+    grid-gap: 30px;
+}
+
+input[type="text"] {
+    width: 500px; 
+    height: 40px; 
+}
+
+input[type="email"] {
+    width: 500px; 
+    height: 40px; 
+}
+
+select{
+    width: 200px;
+    height: 20px;
+}
+
+textarea{
+    width: 600px;
+    height: 150px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 126, 126);;
+    color: white;
+    padding: 10px 20px;
+    justify-content: center;
+}
+
+input[type="submit"]:hover {
+    background-color: aqua; /* Change background color on hover */
+}
+
+.contact{
+    font-weight: 0;
+}
+
+.note{
+    font-weight: bold;
+}
+
+.form2 {
+    padding-left: 75%;
+    display: block;
+    position: absolute;
+    margin: 20px;
+}
+.search{
+    font-size: 0.8em;
+}
+
+input[type="text"] {
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    height: 30px;
+}
+input[type="submit"] {
+    padding: 5px 10px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+#map-container{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+
+/*styling for footer*/
+footer{
+    left: 0; /* to align the footer to the left */
+    bottom: 0; /* to align the footer to the bottom */
+    width: 100%; /* to set the width of the footer */
+    color: rgb(255, 255, 255); 
+    text-align: center; 
+    padding: 20px 0; /* to add padding to the top and bottom of the footer */
+}
+

@@ -1,0 +1,23 @@
+/* Samuel Asuoha 
+   C00305107 */
+
+body {
+    background-color: #FFFDD0;
+}
+
+h2 {
+    text-shadow: 2px 2px grey;
+    text-align: center;
+}
+
+#pic {
+    opacity: 0.5;
+    width: 400px;
+    border-top: solid grey;
+    border-bottom: solid grey;
+}
+
+.text {
+    font-size: 2em;
+    color: #6a5acd;
+}

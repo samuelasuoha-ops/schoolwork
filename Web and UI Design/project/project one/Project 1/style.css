@@ -1,0 +1,82 @@
+/* Samuel Asuoha 
+   C00305107 */
+
+html{
+    height: 100%;
+}
+
+body {
+    background-color: #FFFDD0;
+    background: linear-gradient(100deg, #5ff7ff, #ffa865);
+    height: 100%;
+    background-image: url('instruments/background5.jpg');/* Background Image for website */
+    background-size: cover; /* Adjust the percentage to partially cover the page */
+    background-position: center; /* Center the image */
+    /*background-repeat: no-repeat; /* Do not repeat the image */
+    position: relative; /* Required for absolute positioning of overlay */
+    color: yellow;
+}
+
+/*navigation styling*/
+.nav{
+    height: 30px;
+    padding: 20px;
+    font-size: 2em;
+    margin: 20px;
+}
+
+/* to change color on hover over navigation*/
+ul a:hover {
+    background-color: aqua; 
+    transition: background-color 0.3s ease; 
+}
+
+/*hover styling for 'link' class*/
+.link:hover {
+    background-color: aqua; 
+    transition: background-color 0.3s ease; 
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: aqua; 
+    }
+}
+/*
+.word-break {
+    word-break: break-all;}/* to allow for word break*/
+
+/* border styling */
+th, td {
+    border: 1px solid red;/* to make border more visible*/
+}
+
+li{
+    font-weight: bold;/* to make font bold*/
+    color: white;
+}
+
+.info{
+    margin-left: 40px; /* Adjusted the margin-left to control the indentation */
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -50px; /* the bottom margin is the negative value of the footer's height Gotten from https://stackoverflow.com/questions/42294/how-do-you-get-the-footer-to-stay-at-the-bottom-of-a-web-page to make footer appear on the very bottom of page.*/
+}
+
+.push, footer{
+    height: 50px;/* .push is the same height as footer. Gotten from https://stackoverflow.com/questions/42294/how-do-you-get-the-footer-to-stay-at-the-bottom-of-a-web-page to make footer appear on the very bottom of page.*/
+}
+
+h1, h2{
+    color: rgb(255, 255, 255);
+}
+
+.video{
+    margin-left: 40px; /* Adjusted the margin-left to control the indentation */
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Student ID: C00305107 -->
+    <!-- Full Name: Samuel Asuoha -->
+    <!-- Date: 01/04/2024 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="welcome" >Hello</h1><br>
+    <input type="text" id="text-input" oninput="changeText()"><br>
+    <input type="color" id="color-input" onchange="changeColor()"><br>
+    <div class="button">
+        <button  onclick="increaseSize()">Increase size</button><br><br>
+        <button  onclick="decreaseSize()">Decrease size</button>
+    </div>
+    <script>
+        function changeText() {
+            var inputValue = document.getElementById("text-input").value;
+            document.getElementById("welcome").innerText = inputValue;
+        }
+
+        function changeColor() {
+            var colorValue = document.getElementById("color-input").value;
+            document.getElementById("welcome").style.color = colorValue;
+        }
+
+        function increaseSize() {
+            document.getElementById("welcome").style.fontSize = "100px";
+        }
+
+        function decreaseSize() {
+            document.getElementById("welcome").style.fontSize = "20px";
+        }
+    </script>
+</body>
+</html>

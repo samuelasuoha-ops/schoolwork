@@ -1,0 +1,86 @@
+<!---Student Number: C00305107
+    Name: Samuel Asuoha-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navigation tabs-->
+    <ul class="nav">
+        <a href="index.html" class="nav2">Home</a>
+        <a href="about_us.html" class="nav2">About Us</a>
+        <a href="contact_us.html" class="nav2">Contact Us</a>
+    </ul>
+    <div class="body">
+        
+
+        <!--contact info-->
+        <div class="info">
+            <form method="post" action="contact_us.php">
+            <h1 class="contact_us">Contact Us</h1>
+
+                <div class="form">
+                    <div class="name">
+                        <label for="name" class="label">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>   
+                    <div class="email">
+                        <label for="email" class="label">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div> 
+                    <div class="message">
+                        <label for="message" class="label">Message:</label><br>
+                        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                    </div> 
+                    
+                    <div class="gender">
+                        <label class="gender_label">Gender:</label>
+                        <div class="gender_id">
+                            <input type="radio" id="male" name="gender" value="male" class="male">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female" class="female">
+                            <label for="female">Female</label><br>
+                        </div>
+                    </div>
+                    <div class="country">
+                        <label for="country">Country:</label>
+                        <select id="country" name="country">
+                            <option value="ireland">Ireland</option>
+                            <option value="usa">USA</option>
+                            <option value="uk">UK</option>
+                            <option value="canada">Canada</option>
+                            <option value="italy">Italy</option>
+                            <option value="france">France</option>
+                            <option value="spain">Spain</option>
+                            <option value="turkey">Turkey</option>
+                            <option value="mexico">Mexico</option>
+                        </select><br>
+                    </div>
+                </div>
+                <div class="submit">
+                    <input type="submit" name="submit" value="Submit">
+                </div>
+                
+            </form><br><br>
+            <ul>
+                <p class="note">You can also contact us directly by:</p>
+                <li>Email: musicalinstrumentsinfo@gmail.com</li>
+                <li>Phone: +3531234567890</li>
+                <li>Address: 123 Main St, Kildare, Ireland</li>
+            </ul>
+        </div>
+    </div><br><br><br><br>
+    <!--Footer for webpage-->
+    <footer>
+        <p>Musical Instruments Website. All rights reserved.</p>
+    </footer>  
+ 
+</body>
+
+
+
+</html>
