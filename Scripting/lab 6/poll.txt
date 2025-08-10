@@ -1,0 +1,6 @@
+Apple:0
+Banana:0
+Pineapple:0
+Tomato:1
+Pear:0
+Grape:0

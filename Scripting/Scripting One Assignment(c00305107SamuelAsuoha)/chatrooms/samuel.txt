@@ -1,0 +1,26 @@
+Chatroom created.
+samuel: hello
+asuoha: hey
+samuel: how are you
+samuel: hello
+asuoha: how are you
+samuel: how do i work this
+asuoha: im good
+[2024-11-24 11:50:26] [SYSTEM] samuel has joined the chatroom.
+[2024-11-24 11:53:31] [SYSTEM] samuel has joined the chatroom.
+[2024-11-24 11:53:48] samuel: [2024-11-24 11:53:48] samuel: hello
+samuel: [2024-11-24 11:53:48] samuel: hello
+[2024-11-24 12:08:39] [SYSTEM] samuel has joined the chatroom.
+[2024-11-24 12:08:48] [2024-11-24 12:08:48] samuel: test
+[2024-11-24 12:08:48] samuel: test
+[2024-11-24 12:08:56] [2024-11-24 12:08:56] samuel: hello
+[2024-11-24 12:08:56] samuel: hello
+[2024-11-24 12:09:05] [2024-11-24 12:09:05] samuel: how is everyone
+[2024-11-24 12:09:05] samuel: how is everyone
+[2024-11-24 12:29:29] [SYSTEM] samuel has joined the chatroom.
+[2024-11-24 12:29:38] [2024-11-24 12:29:38] samuel: hello
+[2024-11-24 12:29:38] samuel: hello
+[2024-11-24 12:29:46] [2024-11-24 12:29:46] samuel: e
+[2024-11-24 12:29:46] samuel: e
+[2024-11-24 12:29:50] [2024-11-24 12:29:50] samuel: e
+[2024-11-24 12:29:50] samuel: e
