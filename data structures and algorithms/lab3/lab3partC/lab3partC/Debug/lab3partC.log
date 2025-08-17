@@ -1,0 +1,4 @@
+﻿  vector.cpp
+C:\Users\samue\Desktop\school work\data structures and algorithms\lab3\lab3partC\lab3partC\vector.cpp(101,1): error C2143: syntax error: missing ';' before 'end of file'
+C:\Users\samue\Desktop\school work\data structures and algorithms\lab3\lab3partC\lab3partC\vector.cpp(101,1): error C2953: 'vectorClass': class template has already been defined
+C:\Users\samue\Desktop\school work\data structures and algorithms\lab3\lab3partC\lab3partC\vector.cpp(10): message : see declaration of 'vectorClass'
