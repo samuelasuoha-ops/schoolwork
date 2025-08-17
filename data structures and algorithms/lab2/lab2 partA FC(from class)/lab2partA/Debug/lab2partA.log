@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\x00157526\source\repos\lab2partA\lab2partA\Source.cpp(10,6): warning C4101: 'numbers': unreferenced local variable
+C:\Users\x00157526\source\repos\lab2partA\lab2partA\Source.cpp(11,6): warning C4101: 'i': unreferenced local variable
+C:\Users\x00157526\source\repos\lab2partA\lab2partA\Source.cpp(9,6): warning C4101: 'finalists': unreferenced local variable
+  lab2partA.vcxproj -> C:\Users\x00157526\source\repos\lab2partA\Debug\lab2partA.exe
