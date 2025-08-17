@@ -1,0 +1,2 @@
+﻿Song.obj : error LNK2005: _main already defined in PartBStack.obj
+C:\Users\samue\Desktop\school work\data structures and algorithms\lab7\lab7\Debug\lab7.exe : fatal error LNK1169: one or more multiply defined symbols found
