@@ -1,0 +1,74 @@
+﻿  node.cpp
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(69,18): warning C4099: 'NodeofInt': type name first seen using 'class' now seen using 'struct'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(2): message : see declaration of 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(73,15): error C2248: 'NodeofInt::next': cannot access private member declared in class 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(5): message : see declaration of 'NodeofInt::next'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(2): message : see declaration of 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(81,18): warning C4099: 'NodeofInt': type name first seen using 'class' now seen using 'struct'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(2): message : see declaration of 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(82,7): error C2248: 'NodeofInt::next': cannot access private member declared in class 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(5): message : see declaration of 'NodeofInt::next'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(2): message : see declaration of 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(82,34): error C2248: 'NodeofInt::next': cannot access private member declared in class 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(5): message : see declaration of 'NodeofInt::next'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(2): message : see declaration of 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(92,17): error C2059: syntax error: '='
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(92,23): error C2143: syntax error: missing ';' before '{'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(112,7): error C2248: 'NodeofInt::theValue': cannot access private member declared in class 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(4): message : see declaration of 'NodeofInt::theValue'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(2): message : see declaration of 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(112,26): error C2248: 'NodeofInt::theValue': cannot access private member declared in class 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(4): message : see declaration of 'NodeofInt::theValue'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(2): message : see declaration of 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(116,14): error C2248: 'NodeofInt::next': cannot access private member declared in class 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(5): message : see declaration of 'NodeofInt::next'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(2): message : see declaration of 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(121,5): error C2248: 'NodeofInt::next': cannot access private member declared in class 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(5): message : see declaration of 'NodeofInt::next'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(2): message : see declaration of 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(122,10): error C2248: 'NodeofInt::next': cannot access private member declared in class 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(5): message : see declaration of 'NodeofInt::next'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(2): message : see declaration of 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(123,5): error C2248: 'NodeofInt::theValue': cannot access private member declared in class 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(4): message : see declaration of 'NodeofInt::theValue'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(2): message : see declaration of 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(123,20): error C2248: 'NodeofInt::theValue': cannot access private member declared in class 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(4): message : see declaration of 'NodeofInt::theValue'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(2): message : see declaration of 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(126,10): error C2248: 'NodeofInt::next': cannot access private member declared in class 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(5): message : see declaration of 'NodeofInt::next'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(2): message : see declaration of 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(128,4): error C2248: 'NodeofInt::next': cannot access private member declared in class 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(5): message : see declaration of 'NodeofInt::next'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\NodeofInt.h(2): message : see declaration of 'NodeofInt'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(138,3): error C2065: 'NodePointer': undeclared identifier
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(138,15): error C2146: syntax error: missing ';' before identifier 'temp'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(138,15): error C2065: 'temp': undeclared identifier
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(140,4): error C2065: 'temp': undeclared identifier
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(140,15): error C2061: syntax error: identifier 'Node'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(141,4): error C2065: 'NullPtr': undeclared identifier
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(141,20): error C2065: 'temp': undeclared identifier
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(142,4): error C2065: 'NullPtr': undeclared identifier
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(142,14): error C2065: 'NullPtr': undeclared identifier
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(158,15): error C2678: binary '=': no operator found which takes a left-hand operand of type 'const std::string' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(3061,42): message : could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(3057,42): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(3042,42): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2931,42): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::initializer_list<_Elem>)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2814,42): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&) noexcept(<expr>)'
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\node.cpp(158,15): message : while trying to match the argument list '(const std::string, const std::string)'
+  source.cpp
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\lab5\lab5partAxB\source.cpp(5,10): fatal error C1083: Cannot open include file: 'ListOfBooks.h': No such file or directory
+  Generating Code...

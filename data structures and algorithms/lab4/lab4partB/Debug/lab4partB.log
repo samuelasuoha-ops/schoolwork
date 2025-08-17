@@ -1,0 +1,6 @@
+﻿  MyIntVector.cpp
+  Source.cpp
+C:\Users\samue\source\repos\lab4partB\Source.cpp(18,32): error C2661: 'MyIntVector::MyIntVector': no overloaded function takes 2 arguments
+C:\Users\samue\source\repos\lab4partB\Source.cpp(18,53): error C2661: 'MyIntVector::MyIntVector': no overloaded function takes 2 arguments
+  Generating Code...
+C:\Users\samue\source\repos\lab4partB\MyIntVector.cpp(17): warning C4717: 'MyIntVector::push_back': recursive on all control paths, function will cause runtime stack overflow
