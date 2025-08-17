@@ -1,0 +1,13 @@
+﻿  Source2.txt
+C:\Users\samue\source\repos\lab2 partA\lab2 partA\Source2.txt(6,1): error C2059: syntax error: 'for'
+C:\Users\samue\source\repos\lab2 partA\lab2 partA\Source2.txt(6,1): error C2143: syntax error: missing ')' before ';'
+C:\Users\samue\source\repos\lab2 partA\lab2 partA\Source2.txt(6,19): error C2143: syntax error: missing ';' before '<='
+C:\Users\samue\source\repos\lab2 partA\lab2 partA\Source2.txt(6,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\samue\source\repos\lab2 partA\lab2 partA\Source2.txt(6,26): error C2143: syntax error: missing ';' before '++'
+C:\Users\samue\source\repos\lab2 partA\lab2 partA\Source2.txt(6,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\samue\source\repos\lab2 partA\lab2 partA\Source2.txt(6,25): error C2086: 'int i': redefinition
+C:\Users\samue\source\repos\lab2 partA\lab2 partA\Source2.txt(6): message : see declaration of 'i'
+C:\Users\samue\source\repos\lab2 partA\lab2 partA\Source2.txt(6,28): error C2059: syntax error: ')'
+C:\Users\samue\source\repos\lab2 partA\lab2 partA\Source2.txt(6,30): error C2143: syntax error: missing ';' before '{'
+C:\Users\samue\source\repos\lab2 partA\lab2 partA\Source2.txt(6,30): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\samue\source\repos\lab2 partA\lab2 partA\Source2.txt(14,1): error C2059: syntax error: 'return'
