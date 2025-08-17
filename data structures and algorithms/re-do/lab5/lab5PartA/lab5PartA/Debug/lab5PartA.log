@@ -1,0 +1,4 @@
+﻿  ListOfInts.cpp
+  NodeofInt.cpp
+  Generating Code...
+C:\Users\samue\OneDrive\Desktop\school work\data structures and algorithms\repeat labs\lab5\lab5PartA\lab5PartA\ListOfInts.cpp(132): error C4700: uninitialized local variable 'x' used
